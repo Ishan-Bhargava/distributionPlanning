@@ -1,0 +1,12 @@
+{
+  "containerName": "app",
+  "containerPort": 8501,
+  "healthCheck": {
+    "path": "/_stcore/health",
+    "successCodes": "200",
+    "intervalSeconds": 10,
+    "timeoutSeconds": 5,
+    "healthyThreshold": 2,
+    "unhealthyThreshold": 3
+  }
+}

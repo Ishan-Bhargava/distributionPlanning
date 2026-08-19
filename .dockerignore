@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+run.log
+README.md
+.env
+.env.example
+.git/
